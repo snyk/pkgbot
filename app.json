@@ -1,0 +1,33 @@
+{
+  "name": "pkgbot",
+  "description": "Slack bot for querying npm packages and RubyGems",
+  "keywords": [
+    "slack",
+    "bot",
+    "npm",
+    "packages",
+    "RubyGems"
+    "ruby",
+    "gems",
+    "query"
+  ],
+  "repository": "https://github.com/snyk/pkgbot",
+  "logo": "https://res.cloudinary.com/snyk/image/upload/v1468845142/logo/snyk-avatar.png",
+  "env": {
+    "SLACK_TOKEN": {
+      "description": "The Slack API token for your bot",
+      "value": ""
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 0,
+      "size": "free"
+    },
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "image": "heroku/nodejs"
+}
