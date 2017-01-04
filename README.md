@@ -57,3 +57,8 @@ Direct Message:
 npm moment
 ruby httparty
 ```
+
+
+### License
+
+[License: Apache License, Version 2.0](LICENSE)
