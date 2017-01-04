@@ -1,3 +1,9 @@
+[![Snyk logo](https://snyk.io/style/asset/logo/snyk-print.svg)](https://snyk.io)
+
+[![Known Vulnerabilities](https://snyk.io/test/github/snyk/pkgbot/badge.svg)](https://snyk.io/test/github/snyk/pkgbot)
+
+***
+
 # pkgbot
 A statistics slack bot for npm packages and ruby gems
 The bot will fetch information from [npmjs](https://npmjs.com) or [rubygems](https://rubygems.org) and show it on screen.
