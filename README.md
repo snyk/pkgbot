@@ -12,7 +12,7 @@ The bot will fetch information from [npmjs](https://npmjs.com) or [rubygems](htt
 
 - Before creating the pkgbot, you need to [create a new Slack bot](https://my.slack.com/services/new/bot) and record your API token, export it as an environment variable named `SLACK_TOKEN`. You can, if you like, also use the [bot](https://github.com/Snyk/pkgbot/master/icon.png) image as your avatar for your bot.
 
-- Please export your Snyk auth token (found [here](https://snyk.io/account/)) to an environment variable names `SNYK_AUTH_TOKEN`
+- Please export your Snyk auth token (found [here](https://snyk.io/account/)) to an environment variable named `SNYK_AUTH_TOKEN`
 
 - Please add the following slack [custom emojis](https://my.slack.com/customize/emoji):
 ```text
