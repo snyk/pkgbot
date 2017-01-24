@@ -17,6 +17,10 @@
     "SLACK_TOKEN": {
       "description": "The Slack API token for your bot",
       "value": ""
+    },
+    "SNYK_AUTH_TOKEN": {
+      "description": "The Snyk Auth token to test for vulnerabilities",
+      "value": ""
     }
   },
   "formation": {
