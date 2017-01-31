@@ -1,5 +1,5 @@
-const npm = require('./npm');
-const ruby = require('./ruby');
+const npm = require('./lib/npm');
+const ruby = require('./lib/ruby');
 const SlackBot = require('slackbots');
 const semver = require('semver');
 const moment = require('moment');
@@ -25,7 +25,7 @@ function handleNPMPackageRequest(name) {
       Object.assign(pkg, result)));
 }
 function handleRubyGemRequest(name) {
-  return ruby.getRubyStats(name);
+  return ruby.getRubyStats(name)
 }
 
 const handleMessageEvent = event => {
