@@ -2,10 +2,10 @@
   "name": "pkgbot",
   "version": "1.0.0",
   "description": "A Slack bot for querying npm packages and RubyGems",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
-    "start": "node ."
+    "start": "node lib"
   },
   "author": "Snyk",
   "license": "MIT",
