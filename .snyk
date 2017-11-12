@@ -5,5 +5,5 @@ ignore:
   'npm:ws:20171108':
     - slackbots > ws:
         reason: None given
-        expires: '2017-12-12T07:22:24.795Z'
+        expires: '2018-12-12T07:22:24.795Z'
 patch: {}
