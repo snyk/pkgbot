@@ -9,5 +9,5 @@ ignore:
   'npm:moment:20170905':
     - moment:
         reason: None given
-        expires: '2017-12-29T16:09:52.670Z'
+        expires: '2018-12-29T16:09:52.670Z'
 patch: {}
