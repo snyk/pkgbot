@@ -16,7 +16,7 @@
     "request": "^2.82.0",
     "semver": "^5.3.0",
     "slackbots": "^1.1.0",
-    "snyk": "^1.52.0"
+    "snyk": "^1.231.0"
   },
   "snyk": true
 }
